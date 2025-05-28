@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seedy Enterprises LTD</title>
+    <script src="https://kit.fontawesome.com/1378535848.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="seedy.css">
+    </head>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">
+                <i class="fas fa-gem"></i>
+                SEEDY ENTERPRISES
+            </a>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="seedy.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links active">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="services.html" class="navbar__links">Services</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="blog.html" class="navbar__links">Blog</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Blog</h1>
+        <p>Insights, tips, and industry knowledge to help your business grow and succeed in today's competitive landscape.</p>
+    </section>
+
+    <!-- Blog Controls -->
+    <section class="blog-controls">
+        <div class="blog-controls__container">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search articles...">
+            </div>
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="design">Design</button>
+                <button class="category-btn" data-category="business">Business</button>
+                <button class="category-btn" data-category="technology">Technology</button>
+                <button class="category-btn" data-category="marketing">Marketing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="blog-content__container">
+            <div class="blog-posts" id="blogPosts">
+                <!-- Blog Post 1 -->
+                <article class="blog-post" data-category="design">
+                    <div class="post-image">
+                        <i class="fas fa-palette"></i>
+                        <span class="post-category">Design</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 15, 2024</span>
+                            <span><i class="fas fa-user"></i> Sarah Johnson</span>
+                            <span><i class="fas fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h2 class="post-title">10 Essential Principles of Modern Logo Design</h2>
+                        <p class="post-excerpt">Discover the fundamental principles that make logos memorable, versatile, and effective in today's digital landscape. From simplicity to scalability, learn what makes great design.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post" data-category="business">
+                    <div class="post-image">
+                        <i class="fas fa-chart-line"></i>
+                        <span class="post-category">Business</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 12, 2024</span>
+                            <span><i class="fas fa-user"></i> Mike Chen</span>
+                            <span><i class="fas fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h2 class="post-title">Supply Chain Optimization in 2024: Key Strategies</h2>
+                        <p class="post-excerpt">Learn how businesses are adapting their supply chains for efficiency and resilience. Explore automation, sustainability, and risk management strategies that drive success.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post" data-category="technology">
+                    <div class="post-image">
+                        <i class="fas fa-laptop-code"></i>
+                        <span class="post-category">Technology</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 10, 2024</span>
+                            <span><i class="fas fa-user"></i> Alex Rivera</span>
+                            <span><i class="fas fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h2 class="post-title">The Future of Web Design: Trends to Watch</h2>
+                        <p class="post-excerpt">From AI-powered interfaces to immersive experiences, explore the cutting-edge trends shaping the future of web design and user experience.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-post" data-category="marketing">
+                    <div class="post-image">
+                        <i class="fas fa-bullhorn"></i>
+                        <span class="post-category">Marketing</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 8, 2024</span>
+                            <span><i class="fas fa-user"></i> Emma Davis</span>
+                            <span><i class="fas fa-clock"></i> 4 min read</span>
+                        </div>
+                        <h2 class="post-title">Building Brand Identity That Resonates</h2>
+                        <p class="post-excerpt">Creating a brand identity that connects with your audience requires strategy, creativity, and consistency. Learn the essential steps to build a memorable brand.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-post" data-category="business">
+                    <div class="post-image">
+                        <i class="fas fa-handshake"></i>
+                        <span class="post-category">Business</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 5, 2024</span>
+                            <span><i class="fas fa-user"></i> David Park</span>
+                            <span><i class="fas fa-clock"></i> 8 min read</span>
+                        </div>
+                        <h2 class="post-title">Client Relationship Management: Best Practices</h2>
+                        <p class="post-excerpt">Strong client relationships are the foundation of business success. Discover proven strategies for building trust, communication, and long-term partnerships.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-post" data-category="design">
+                    <div class="post-image">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="post-category">Design</span>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 3, 2024</span>
+                            <span><i class="fas fa-user"></i> Lisa Wong</span>
+                            <span><i class="fas fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h2 class="post-title">Mobile-First Design: Why It Matters More Than Ever</h2>
+                        <p class="post-excerpt">With mobile traffic dominating the web, mobile-first design isn't just a trend—it's essential. Learn how to create experiences that work beautifully on every device.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Recent Posts Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Recent Posts</h3>
+                    <div class="recent-posts">
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="recent-post-content">
+                                <h4>10 Essential Principles of Modern Logo Design</h4>
+                                <span class="recent-post-date">March 15, 2024</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="recent-post-content">
+                                <h4>Supply Chain Optimization in 2024</h4>
+                                <span class="recent-post-date">March 12, 2024</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="recent-post-content">
+                                <h4>The Future of Web Design Trends</h4>
+                                <span class="recent-post-date">March 10, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tags Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Popular Tags</h3>
+                    <div class="tags">
+                        <a href="#" class="tag">Logo Design</a>
+                        <a href="#" class="tag">Branding</a>
+                        <a href="#" class="tag">Web Design</a>
+                        <a href="#" class="tag">Supply Chain</a>
+                        <a href="#" class="tag">Marketing</a>
+                        <a href="#" class="tag">UI/UX</a>
+                        <a href="#" class="tag">Business</a>
+                        <a href="#" class="tag">Technology</a>
+                        <a href="#" class="tag">Digital</a>
+                        <a href="#" class="tag">Strategy</a>
+                    </div>
+                </div>
+
+                <!-- Newsletter Widget -->
+                <div class="sidebar-widget newsletter">
+                    <h3 class="widget-title">Newsletter</h3>
+                    <p>Stay updated with our latest articles and industry insights delivered straight to your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <a href="#" aria-label="Previous page">←</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#" aria-label="Next page">→</a>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@seedyenterprises.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Business St, City, State</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="#">Contact</a></p>
+                </div>
+                <div class="footer__section">
+                    <h3>Services</h3>
+                    <p>Graphic Design</p>
+                    <p>Supply Chain Management</p>
+                    <p>Creative Consulting</p>
+                    <p>Brand Development</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Follow Us</h3>
+                    <div class="social__icons">
+                        <a href="#" class="social__icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social__icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social__icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social__icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <a href="#" class="footer__logo">
+                    <i class="fas fa-gem"></i>
+                    SEEDY ENTERPRISES
+                </a>
+                <p>&copy; 2024 Seedy Enterprises. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

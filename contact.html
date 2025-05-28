@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Seedy Enterprises LTD</title>
+    <script src="https://kit.fontawesome.com/1378535848.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="seedy.css">
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" id="navbar__logo">
+                <i class="fas fa-gem"></i>
+                SEEDY ENTERPRISES
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu" id="navbar__menu">
+                <li class="navbar__item">
+                    <a href="seedy.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="services.html" class="navbar__links">Services</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="blog.html" class="navbar__links">Blog</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>Get in touch with our team for professional printing solutions and exceptional service</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact__container">
+            <!-- Contact Information -->
+            <div class="contact__info">
+                <h2>Get In Touch</h2>
+                
+                <div class="info__item">
+                    <div class="info__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info__content">
+                        <h3>Our Location</h3>
+                        <p>123 Print Street<br>
+                        Business District<br>
+                        City, State 12345</p>
+                    </div>
+                </div>
+
+                <div class="info__item">
+                    <div class="info__icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info__content">
+                        <h3>Phone Numbers</h3>
+                        <p>Main: <a href="tel:+15551234567">+1 (555) 123-4567</a><br>
+                        Toll Free: <a href="tel:+18001234567">+1 (800) 123-4567</a></p>
+                    </div>
+                </div>
+
+                <div class="info__item">
+                    <div class="info__icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info__content">
+                        <h3>Email Addresses</h3>
+                        <p>General: <a href="mailto:info@seedyenterprises.com">info@seedyenterprises.com</a><br>
+                        Orders: <a href="mailto:orders@seedyenterprises.com">orders@seedyenterprises.com</a></p>
+                    </div>
+                </div>
+
+                <div class="info__item">
+                    <div class="info__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info__content">
+                        <h3>Response Time</h3>
+                        <p>We typically respond to all inquiries within 2-4 hours during business hours</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact__form">
+                <h2>Send Us A Message</h2>
+                
+                <div class="success-message" id="successMessage">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Thank you! Your message has been sent successfully.</span>
+                </div>
+
+                <form id="contactForm">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form__group">
+                        <label for="service">Service Interest</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="business-cards">Business Cards</option>
+                            <option value="brochures">Brochures & Flyers</option>
+                            <option value="banners">Banners & Signs</option>
+                            <option value="letterhead">Letterhead & Stationery</option>
+                            <option value="postcards">Postcards</option>
+                            <option value="booklets">Booklets & Catalogs</option>
+                            <option value="large-format">Large Format Printing</option>
+                            <option value="custom">Custom Project</option>
+                            <option value="quote">General Quote Request</option>
+                        </select>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="budget">Project Budget</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under-500">Under $500</option>
+                            <option value="500-1000">$500 - $1,000</option>
+                            <option value="1000-2500">$1,000 - $2,500</option>
+                            <option value="2500-5000">$2,500 - $5,000</option>
+                            <option value="over-5000">Over $5,000</option>
+                        </select>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="Please describe your printing needs, quantity, timeline, and any specific requirements..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit__btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Hours -->
+    <section class="hours">
+        <div class="hours__container">
+            <h2 class="hours__title">Business Hours</h2>
+            <div class="hours__grid">
+                <div class="hours__item">
+                    <span class="hours__day">Monday</span>
+                    <span class="hours__time">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hours__item">
+                    <span class="hours__day">Tuesday</span>
+                    <span class="hours__time">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hours__item">
+                    <span class="hours__day">Wednesday</span>
+                    <span class="hours__time">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hours__item">
+                    <span class="hours__day">Thursday</span>
+                    <span class="hours__time">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hours__item">
+                    <span class="hours__day">Friday</span>
+                    <span class="hours__time">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hours__item">
+                    <span class="hours__day">Saturday</span>
+                    <span class="hours__time">9:00 AM - 4:00 PM</span>
+                </div>
+                <div class="hours__item">
+                    <span class="hours__day">Sunday</span>
+                    <span class="hours__time closed">Closed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <div class="map__container">
+            <h2 class="map__title">Find Us</h2>
+            <div class="map__frame">
+                <div style="text-align: center;">
+                    <i class="fas fa-map-marked-alt" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <p>Interactive Map Coming Soon</p>
+                    <p>123 Print Street, Business District, City, State 12345</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>About Us</h3>
+                    <p>Seedy Enterprises is your trusted partner for professional printing solutions and creative services.</p>
+                    <p>We transform your ideas into reality with exceptional quality and service.</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <p><a href="seedy.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="blog.html">Blog</a></p>
+                </div>
+                <div class="footer__section">
+                    <h3>Services</h3>
+                    <p>Business Cards</p>
+                    <p>Brochures & Flyers</p>
+                    <p>Banners & Signs</p>
+                    <p>Large Format Printing</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Follow Us</h3>
+                    <div class="social__icons">
+                        <a href="#" class="social__icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social__icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social__icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social__icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <a href="#" class="footer__logo">
+                    <i class="fas fa-gem"></i>
+                    SEEDY ENTERPRISES
+                </a>
+                <p>&copy; 2024 Seedy Enterprises. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('navbar__menu');
+
+        mobileMenu.addEventListener('click', function() {
+            mobileMenu.classList.toggle('is-active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.navbar__links').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('is-active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show success message
+            const successMessage = document.getElementById('successMessage');
+            successMessage.classList.add('show');
+            
+            // Reset form
+            this.reset();
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMessage.classList.remove('show');
+            }, 5000);
+            
+            // Scroll to top of form
+            document.querySelector('.contact__form').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+        // Form validation enhancement
+        const inputs = document.querySelectorAll('input[required], textarea[required]');
+        inputs.forEach(input => {
+            input.addEventListener('blur', function() {
+                if (this.value.trim() === '') {
+                    this.style.borderColor = '#dc3545';
+                } else {
+                    this.style.borderColor = '#28a745';
+                }
+            });
+        });
+
+        // Phone number formatting
+        document.getElementById('phone').addEventListener('input', function(e) {
+            let x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+            e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+        });
+    </script>
+</body>
+</html>
